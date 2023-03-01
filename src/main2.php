@@ -23,7 +23,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])){
 <body>
     <div class="header">
         <nav id="navBar">
-            <img src="./logo11.png" class="logo">
+            <img src="../logo11.png" class="logo">
             <ul class="nav-links">
                 <li><a href="main2.php" class="active">Home</a></li>
                 <li><a href="page2.html">Gallery</a></li>
@@ -31,7 +31,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])){
             </ul>
             <ul>
             <!-- <a href="signup.php" class="register-btn">Regiser Now</a> -->
-            <a href="logout.php" class="register-btn">LOGOUT </a>
+            <a href="logout.php" class="register-btn2">LOGOUT </a>
             <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
             </ul>    
         </nav>
@@ -45,35 +45,35 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])){
         <h2 id="2" class="sub-title">สถานที่ท่องเที่ยว</h2>
         <div class="exclusive">
             <div>
-                <img src="./taveling/ChiangMai/13.png" >
+                <img src="../taveling/ChiangMai/13.png" >
                 <span>
                     <h3>Chiang Mai</h3>
                     
                 </span>
             </div>
             <div>
-                <img src="./taveling/ChiangRai/12.png" >
+                <img src="../taveling/ChiangRai/12.png" >
                 <span>
                     <h3>Chiang Rai</h3>
                     
                 </span>
             </div>
             <div>
-                <img src="./taveling/luopang/111.png" >
+                <img src="../taveling/luopang/111.png" >
                 <span>
                     <h3>Lampang</h3>
                    
                 </span>
             </div>
             <div>
-                <img src="./taveling/MaeHongSon/14.png" >
+                <img src="../taveling/MaeHongSon/14.png" >
                 <span>
                     <h3>Mae Hong Son</h3>
                     
                 </span>
             </div>
             <div>
-                <img src="./taveling/nan/15.png" >
+                <img src="../taveling/nan/15.png" >
                 <span>
                     <h3>Nan</h3>
                     
@@ -86,19 +86,19 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])){
         <h2 id="1" class="sub-title">Cafe</h2>
         <div class="trending">
             <div>
-                <img src="./cafe/Groon/1.jpg" >
+                <img src="../cafe/Groon/1.jpg" >
                 <h3>Groon Cafe</h3>
             </div>
             <div>
-                <img src="./cafe/nakama cafe/1.jpg" >
+                <img src="../cafe/nakama cafe/1.jpg" >
                 <h3>Nakama Cafe</h3>
             </div>
             <div>
-                <img src="./cafe/som cafe/1.jpg" >
+                <img src="../cafe/som cafe/1.jpg" >
                 <h3>ชมวิวค่าเฟ่ </h3>
             </div>
             <div>
-                <img src="./cafe/Yelloo/1.jpg" >
+                <img src="../cafe/Yelloo/1.jpg" >
                 <h3>Yelloo cafe</h3>
             </div>       
         </div>
@@ -106,15 +106,15 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])){
         <h2 id="3" class="sub-title">สถานบันเทิง</h2>
         <div class="stories">
             <div>
-                <img src="./taveling/ChiangMai/bar/1.png">
+                <img src="../taveling/ChiangMai/bar/1.png">
                 <p>Warmup Cafe ผับดังของเชียงใหม่</p>
             </div>
             <div>
-                <img src="./taveling/ChiangRai/bar/1.png">
+                <img src="../taveling/ChiangRai/bar/1.png">
                 <p>Ribbon Bar จังหวัดเชียงราย</p>
             </div>
             <div>
-                <img src="./taveling/MaeHongSon/bar/13.png">
+                <img src="../taveling/MaeHongSon/bar/13.png">
                 <p>จิ๊กโก๋บาร์ แท็ปเบียร์ ซิงเกิลมอลต์ จังหวัดแม่ฮ่องสอน</p>
             </div>
         </div>
